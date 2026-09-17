@@ -88,3 +88,21 @@ Brain-CNN-Model/
 ├── test.py
 ├── requirements.txt
 └── README.md
+
+## How to Run the Project
+There are 2 ways : a. download and train model again - else 
+b. Use directly trained model and predict . 
+
+1. Download the repository as a ZIP file and extract it.
+2. Open the extracted project folder in VS Code.
+3. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+
+Run predict.py with the path to an MRI image: py predict.py "C:\Path\To\Your\MRI\Image.jpg"
+
+Example: py predict.py "C:\Users\YourName\Pictures\brain_scan.jpg"
+
+The trained model is already included in:
+checkpoints/best_model.pth
