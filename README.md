@@ -88,7 +88,7 @@ Brain-CNN-Model/
 ├── test.py
 ├── requirements.txt
 └── README.md
-
+```
 ## How to Run the Project
 There are 2 ways : a. download and train model again - else 
 b. Use directly trained model and predict . 
@@ -106,3 +106,4 @@ Example: py predict.py "C:\Users\YourName\Pictures\brain_scan.jpg"
 
 The trained model is already included in:
 checkpoints/best_model.pth
+```
